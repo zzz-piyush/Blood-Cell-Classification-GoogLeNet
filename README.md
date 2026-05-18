@@ -74,11 +74,11 @@ outputs/
 
 ## Evaluation Metrics
 
-| Metric | Value |
-|--------|-------|
-| Accuracy | TBD |
-| Weighted F1 | TBD |
-| Macro AUC-ROC | TBD |
+| Metric | 
+|--------|
+| Accuracy |
+| Weighted F1 | 
+| Macro AUC-ROC |
 
 ## References
 
