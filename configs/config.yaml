@@ -1,0 +1,44 @@
+# GoogLeNet Blood Cell Classification — Configuration
+# =====================================================
+
+# Dataset
+dataset:
+  name: "paultimothymooney/blood-cells"
+  data_dir: "data"
+  image_size: 224
+  val_split: 0.15
+  num_workers: 4
+
+# Model
+model:
+  num_classes: 4
+  dropout: 0.4
+  aux_dropout: 0.7
+  use_batchnorm: true
+
+# Training
+training:
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  optimizer: "adam"
+  scheduler: "cosine"
+  aux_loss_weight: 0.3
+  early_stopping_patience: 12
+
+# Evaluation
+evaluation:
+  gradcam_samples: 4        # samples per class for Grad-CAM
+
+# Outputs
+output:
+  dir: "outputs"
+  checkpoint_dir: "outputs/checkpoints"
+  plot_dir: "outputs/plots"
+  metrics_dir: "outputs/metrics"
+  log_dir: "outputs/logs"
+  gradcam_dir: "outputs/gradcam"
+
+# Reproducibility
+seed: 42

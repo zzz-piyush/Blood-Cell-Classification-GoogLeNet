@@ -1,0 +1,27 @@
+# Data (dataset files are large)
+data/
+
+# Model outputs (checkpoints, plots, logs, etc.)
+outputs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated report docx (large binary)
+report/*.docx
