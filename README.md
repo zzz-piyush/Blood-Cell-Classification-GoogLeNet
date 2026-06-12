@@ -76,9 +76,13 @@ outputs/
 
 | Metric | 
 |--------|
-| Accuracy |
-| Weighted F1 | 
-| Macro AUC-ROC |
+| Accuracy |	85.12% |
+| Weighted F1 |	0.8547 |
+| Macro F1 |	0.8548 |
+| Macro AUC-ROC | 0.9625 |
+| Precision |	0.8714 |
+| Recall |	0.8512 |
+
 
 ## References
 
