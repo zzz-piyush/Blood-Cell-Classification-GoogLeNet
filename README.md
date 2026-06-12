@@ -74,8 +74,8 @@ outputs/
 
 ## Evaluation Metrics
 
-| Metric | 
-|--------|
+| Metric | Score |
+|--------| --------- |
 | Accuracy |	85.12% |
 | Weighted F1 |	0.8547 |
 | Macro F1 |	0.8548 |
